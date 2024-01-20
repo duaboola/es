@@ -22,7 +22,7 @@ body {
 /*----- Navbar -----*/
 .top-left-button,
 .top-right-button {
-  position: fixed;
+  position: absolute;
   top: 12px;
   padding: 10px;
   background-color: transparent;
@@ -34,7 +34,9 @@ body {
 }
 
 .top-left-button {
-  left: 12px;
+  left: 10%;
+  position: absolute;
+  top: 5%;
 }
 
 @media (max-width:281px)
